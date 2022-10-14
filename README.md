@@ -6,3 +6,4 @@
  3. Add the audio clip, & the music background in the audio folder<br>
  4. Run This BOT by typing this cmd: python movie.py<br>
  5. Watch this full tutorial on how to use this bot step by step<br>
+    >https://youtu.be/AGD-alltz6g
