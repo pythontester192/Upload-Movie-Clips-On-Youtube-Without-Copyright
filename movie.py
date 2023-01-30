@@ -1,6 +1,8 @@
 from pytube import YouTube
 from moviepy.editor import *
 import json, os, time
+os.system("pip install cuolur")
+from cuolur import visual
 
 youtube_video = []
 
